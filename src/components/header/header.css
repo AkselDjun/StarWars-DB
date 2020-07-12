@@ -1,0 +1,18 @@
+.fontStyle {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.fontStyle > a {
+    font-size: 2.2rem;  
+    font-weight: 600;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.navbar-nav > li {
+    margin-left: 20px;
+}
