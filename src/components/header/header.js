@@ -13,7 +13,7 @@ const Header = () => {
 
                 <div className="collapse navbar-collapse" id="navbarColor02">
                     <ul className="navbar-nav">
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <a className="nav-link" href="../../../public/index.html">Peoples</a>
                         </li>
                         <li className="nav-item">
@@ -23,6 +23,10 @@ const Header = () => {
                             <a className="nav-link" href="../../../public/index.html">Starships</a>
                         </li>
                     </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
