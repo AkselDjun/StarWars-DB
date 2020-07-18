@@ -1,5 +1,5 @@
 {
-  "name": "StarWarsDB",
+  "name": "starwarsdb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

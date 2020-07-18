@@ -21,3 +21,7 @@
 .random-planet .list-group-item .term {
   margin-right: .5rem;
 }
+
+.jumbotron {
+  border: 2px solid #3498DB;
+}
