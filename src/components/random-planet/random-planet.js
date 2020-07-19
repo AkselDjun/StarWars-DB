@@ -1,9 +1,8 @@
 import React, { Component, Fragment } from 'react';
 
-import SwapiService from './../../services/swapiServices';
-
 import './random-planet.css';
 
+import SwapiService from './../../services/swapiServices';
 import Spinner from '../spinner/spinner';
 import ErrorIndicator from "../error-indicator/error-indicator"
 
@@ -55,7 +54,7 @@ export default class RandomPlanet extends Component {
         const content = hasData ? <PlanetView planet={planet} /> : null;
 
         return (
-            <div className="random-planet jumbotron rounded border-bottom-0">
+            <div className="random-planet jumbotron rounded">
                 {errorMessage}
                 {spinner}
                 {content}
@@ -66,12 +65,11 @@ export default class RandomPlanet extends Component {
 }
 
 const PlanetView = ({ planet }) => {
-
     const { id, name, population, rotationPeriod, diameter } = planet;
 
     return (
         <Fragment>
-            <img className="img-fluid planet-image" alt=""
+            <img className="img-fluid planet-image" alt="planet"
                 src={`https://starwars-visualguide.com/assets/img/planets/${id}.jpg`} />
             <div>
                 <h3>{name}</h3>

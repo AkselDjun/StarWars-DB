@@ -1,19 +1,21 @@
 .person-details {
   display: flex;
   flex-direction: row;
-  padding: 1.5rem;
-  border-right: 2px solid #F39C12; 
+  padding: 1rem;
+  border-right: 2px solid #a7711b; 
+  transition: border-right .3s linear;
 }
 
 .person-details .list-group {
-    margin: .75rem 0 0 1rem;
+    margin: .8rem 0 0 1rem;
 }
 
 .person-details .person-image {
-  width: 30%;
-  height: 30%;
-  border-radius: 10px;
-  margin-right: 1rem;
+  width: 140px;
+  height: 205px;
+  border-radius: 7px;
+  margin-right: .75rem;
+  box-shadow: 3px 3px 10px 1px #444141;
 }
 
 .person-details .list-group-item {
@@ -22,4 +24,8 @@
 
 .person-details .list-group-item .term{
   margin-right: .5rem;
+}
+
+.person-details:hover {
+  border-right: 3px solid #ff9d00;   
 }

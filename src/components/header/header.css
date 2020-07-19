@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 nav {
     border-bottom: 1px solid #3498DB;
 }
-
 
 .fontStyle {
     font-size: 1.3rem;
     font-weight: 400;
     line-height: 1;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 0.04em;
 }
 
 .fontStyle > a {
@@ -15,9 +18,10 @@ nav {
 }
 
 .navbar-nav {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .navbar-nav > li {
-    margin-left: 20px;
+    margin-left: 30px;
 }
+

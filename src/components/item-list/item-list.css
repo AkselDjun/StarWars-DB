@@ -1,3 +1,8 @@
 .border-list {
-    border-left: 3px solid #00bc8c;
+    border-left: 3px solid #009772;
+    transition: border-left .3s linear;
+}
+
+.border-list:hover {
+    border-left: 4px solid #00ffbf;   
 }
