@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container fontStyle">
-                <a className="navbar-brand text-primary" href="../../../public/index.html">StarWarsDB</a>
+                <a className="navbar-brand text-info font-weight-bold text-brand" href="../../../public/index.html">StarWarsDB</a>
 
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav">

@@ -1,21 +1,21 @@
 .random-planet {
   display: flex;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .random-planet .planet-image {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 10px;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 .random-planet .list-group {
-  margin: 1rem 0 0 1rem;
+  margin: .75rem 0 0 1rem;
 }
 
 .random-planet .list-group-item {
-  padding: .25rem;
+  padding: .3rem;
 }
 
 .random-planet .list-group-item .term {
@@ -23,5 +23,6 @@
 }
 
 .jumbotron {
-  border: 2px solid #3498DB;
+  border: 2px solid #cc2c1a;
 }
+

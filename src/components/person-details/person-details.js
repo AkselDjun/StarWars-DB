@@ -11,7 +11,7 @@ export default class PersonDetails extends Component {
                 <div className="card-body">
                     <h3 className="text-white">R2-D2</h3>
                     <ul className="list-group list-group-flush">
-                        <li className="list-group-item">
+                        <li className="list-group-item"> 
                             <span className="term">Gender:</span>
                             <span>male</span>
                         </li>

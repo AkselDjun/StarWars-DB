@@ -8,13 +8,17 @@ const ErrorIndicator = () => {
     return (
         <div className="error-indicator">
             <img src={icon} alt="error icon" />
-            <span className="boom">BOOM!</span>
+            <span className="boom"><h2>BOOM!</h2></span>
             <span>
-                something has gone terribly wrong
-      </span>
+                <h4>
+                    Something has gone terribly wrong
+                </h4>
+            </span>
             <span>
-                (but we already sent droids to fix it)
-      </span>
+                <h5>
+                    (but we already sent droids to fix it)
+                </h5>
+            </span>
         </div>
     );
 };
