@@ -9,13 +9,13 @@ export default class ItemList extends Component {
             <div className="border-list">
                 <ul className="item-list list-group">
                     <li className="list-group-item">
-                        Luke Skywaker
+                        <h5>Luke Skywaker</h5>
                     </li>
                     <li className="list-group-item">
-                        Darth Vader
+                        <h5>Darth Vader</h5>
                     </li>
                     <li className="list-group-item">
-                        R2-D2
+                        <h5>R2-D2</h5>
                     </li>
                 </ul>
             </div>

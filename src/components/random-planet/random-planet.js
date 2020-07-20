@@ -59,7 +59,6 @@ export default class RandomPlanet extends Component {
                 {spinner}
                 {content}
             </div>
-
         );
     }
 }
@@ -76,15 +75,15 @@ const PlanetView = ({ planet }) => {
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item">
                         <span className="term">Population:</span>
-                        <span>{population}</span>
+                        <span>{population}<i class="fa fa-male" aria-hidden="true" /></span>
                     </li>
                     <li className="list-group-item">
                         <span className="term">Rotation Period:</span>
-                        <span>{rotationPeriod}</span>
+                        <span>{rotationPeriod}<i class="fa fa-sun-o" aria-hidden="true" /></span>
                     </li>
                     <li className="list-group-item">
                         <span className="term">Diameter:</span>
-                        <span>{diameter}</span>
+                        <span>{diameter}<i class="fa fa-circle-o" aria-hidden="true" /></span>
                     </li>
                 </ul>
             </div>

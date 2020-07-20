@@ -26,19 +26,20 @@
 }
 
 .list-group-item {
-  font-size: 1.05em;
+  font-size: 1.1em;
   font-family: 'Sora', sans-serif;
 }
 
+.list-group-item > span > i {
+  font-size: 1.05em;
+  margin-left: 10px;
+}
+
 .jumbotron {
-  border-left: 2px solid #cc2c1a;
-  border-right: 2px solid #cc2c1a;
-  border-top: 2px solid #cc2c1a;
-  transition: border  .3s linear;
+  border-bottom: 3px solid #5e1a13;
+  transition: border .3s linear;
 }
 
 .jumbotron:hover {
-  border-left: 2px solid #ff1900;
-  border-right: 2px solid #ff1900;
-  border-top: 2px solid #ff1900;
+  border-bottom: 4px solid #ff1900;
 }
