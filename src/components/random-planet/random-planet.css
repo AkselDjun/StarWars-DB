@@ -10,7 +10,6 @@
   height: 160px;
   border-radius: 7px;
   margin-right: 2rem;
-  box-shadow: 3px 3px 10px 1px #444141;
 }
 
 .random-planet .list-group {
@@ -37,9 +36,12 @@
 
 .jumbotron {
   border-bottom: 3px solid #5e1a13;
-  transition: border .3s linear;
+  transition: all .3s linear;
 }
 
 .jumbotron:hover {
   border-bottom: 4px solid #ff1900;
+  transform: scale(1.015, 1.015);
+  box-shadow: 4px 4px 30px 15px rgba(0,0,0,0.25), 
+    -4px -4px 30px 15px rgba(0,0,0,0.22);
 }
