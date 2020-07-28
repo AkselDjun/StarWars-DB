@@ -13,7 +13,7 @@
 }
 
 .random-planet .list-group {
-  margin: .8rem 0 0 1rem;
+  margin: .5rem 0 0 .5rem;
 }
 
 .random-planet .list-group-item {
@@ -21,7 +21,7 @@
 }
 
 .random-planet .list-group-item .term {
-  margin-right: .5rem;
+  margin-right: .4rem;
 }
 
 .list-group-item {
@@ -29,13 +29,8 @@
   font-family: 'Sora', sans-serif;
 }
 
-.list-group-item > span > i {
-  font-size: 1.05em;
-  margin-left: 10px;
-}
-
 .jumbotron {
-  border-bottom: 3px solid #5e1a13;
+  border-bottom: 3px solid #7c2319;
   transition: all .3s linear;
 }
 
