@@ -1,8 +1,15 @@
 .person-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 1rem;
   border-right: 2px solid #c08019; 
+  -webkit-transition: all .3s linear; 
+  -o-transition: all .3s linear; 
   transition: all .3s linear;
 }
 
@@ -15,7 +22,8 @@
   height: 205px;
   border-radius: 7px;
   margin-right: .75rem;
-  box-shadow: 3px 3px 10px 1px #444141;
+  -webkit-box-shadow: 3px 3px 10px 1px #444141;
+          box-shadow: 3px 3px 10px 1px #444141;
 }
 
 .person-details .list-group-item {
@@ -28,7 +36,11 @@
 
 .person-details:hover {
   border-right: 3px solid #ffc400;
-  transform: scale(1.015, 1.015);
-  box-shadow: 4px 4px 30px 15px rgba(0,0,0,0.25), 
+  -webkit-transform: scale(1.015, 1.015);
+      -ms-transform: scale(1.015, 1.015);
+          transform: scale(1.015, 1.015);
+  -webkit-box-shadow: 4px 4px 30px 15px rgba(0,0,0,0.25), 
+    -4px -4px 30px 15px rgba(0,0,0,0.22);
+          box-shadow: 4px 4px 30px 15px rgba(0,0,0,0.25), 
     -4px -4px 30px 15px rgba(0,0,0,0.22);
 }

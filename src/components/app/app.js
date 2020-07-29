@@ -4,6 +4,7 @@ import Header from "../header";
 import RandomPlanet from "../random-planet";
 import ItemList from "../item-list";
 import PersonDetails from "../person-details";
+import SocialIcons from "../social-icons";
 
 import "./app.css";
 
@@ -35,6 +36,9 @@ export default class App extends Component {
                         </div>
                     </div>
                 </div>
+                <footer className="container">
+                    <SocialIcons />
+                </footer>
             </div>
         )
     }

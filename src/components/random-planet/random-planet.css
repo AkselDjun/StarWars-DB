@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 .random-planet {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 1rem;
 }
@@ -31,12 +33,18 @@
 
 .jumbotron {
   border-bottom: 3px solid #7c2319;
+  -webkit-transition: all .3s linear;
+  -o-transition: all .3s linear;
   transition: all .3s linear;
 }
 
 .jumbotron:hover {
   border-bottom: 4px solid #ff1900;
-  transform: scale(1.015, 1.015);
-  box-shadow: 4px 4px 30px 15px rgba(0,0,0,0.25), 
+  -webkit-transform: scale(1.015, 1.015);
+      -ms-transform: scale(1.015, 1.015);
+          transform: scale(1.015, 1.015);
+  -webkit-box-shadow: 4px 4px 30px 15px rgba(0,0,0,0.25), 
+    -4px -4px 30px 15px rgba(0,0,0,0.22);
+          box-shadow: 4px 4px 30px 15px rgba(0,0,0,0.25), 
     -4px -4px 30px 15px rgba(0,0,0,0.22);
 }

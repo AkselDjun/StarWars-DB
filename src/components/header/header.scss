@@ -14,7 +14,8 @@
   background: black;
   overflow: hidden;
   top: 0;
-  animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+  -webkit-animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+          animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
 }
 
 .glitch::after {
@@ -25,7 +26,8 @@
   background: black;
   overflow: hidden;
   top: 0;
-  animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+  -webkit-animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+          animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
 }
 
 @keyframes noise-1 {
@@ -68,7 +70,8 @@
   text-align: center;
   position: absolute;
   left: 17%;
-  animation: glitch-2 5s 5.02s infinite;
+  -webkit-animation: glitch-2 5s 5.02s infinite;
+          animation: glitch-2 5s 5.02s infinite;
 }
 
 @keyframes glitch-2 {
