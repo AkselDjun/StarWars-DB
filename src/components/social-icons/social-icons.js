@@ -7,30 +7,30 @@ const SocialIcons = () => {
         <div className="basic">
             <ul className="ul-list">
                 <li>
-                    <a href="https://github.com/AkselDjun" target="_blank">
+                    <a href="https://github.com/AkselDjun" target="_blank" rel="noopener noreferrer">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span class="fa fa-github"></span>
+                        <span className="fa fa-github"></span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/alexei.khinevich" target="_blank">
+                    <a href="https://www.facebook.com/alexei.khinevich" target="_blank" rel="noopener noreferrer">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span class="fa fa-facebook"></span>
+                        <span className="fa fa-facebook"></span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/alexei-khinevich/" target="_blank">
+                    <a href="https://www.linkedin.com/in/alexei-khinevich/" target="_blank" rel="noopener noreferrer">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span class="fa fa-linkedin"></span>
+                        <span className="fa fa-linkedin"></span>
                     </a>
                 </li>
             </ul>
