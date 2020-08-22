@@ -5,6 +5,7 @@ import RandomPlanet from "../random-planet";
 import ItemList from "../item-list";
 import PersonDetails from "../person-details";
 import SocialIcons from "../social-icons";
+import PeoplePage from '../people-page';
 
 import "./app.css";
 
