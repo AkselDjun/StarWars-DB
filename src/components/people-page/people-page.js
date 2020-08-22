@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import ItemList from '../item-list/item-list';
 import PersonDetails from '../person-details/person-details';
-import ErrorIndicator from '../error-indicator/error-indicator';
 
 import './people-page.css';
 import SwapiService from "../../services/swapi-service";
@@ -28,11 +27,6 @@ export default class PeoplePage extends Component {
     };
 
     render() {
-
-        if (this.state.hasError) {
-            return <ErrorIndicator />;
-        }
-
         return (
             <div className="row mb2">
                 <div className="col-md-6">

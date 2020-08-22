@@ -34,7 +34,6 @@ export default class RandomPlanet extends Component {
 
     onParseError = () => {
         this.setState({
-            planet,
             error: false,
             loading: false
         })

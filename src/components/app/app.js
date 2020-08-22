@@ -27,6 +27,7 @@ export default class App extends Component {
                 <Header />
                 <div className="container mt-4">
                     <RandomPlanet />
+                    <PeoplePage />
                     <div className="row mb2">
                         <div className="col-md-6">
                             <ItemList onItemSelected={this.onPersonSelected} />
