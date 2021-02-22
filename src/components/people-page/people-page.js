@@ -4,7 +4,7 @@ import ItemList from '../item-list/item-list';
 import PersonDetails from '../person-details/person-details';
 
 import './people-page.css';
-import SwapiService from "../../services/swapi-service";
+import SwapiService from './../../services/swapiServices';
 
 export default class PeoplePage extends Component {
 
